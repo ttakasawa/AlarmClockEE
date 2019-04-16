@@ -8,13 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		B285FF092265432D005EB859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF082265432D005EB859 /* AppDelegate.swift */; };
-		B285FF0B2265432D005EB859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF0A2265432D005EB859 /* ViewController.swift */; };
-		B285FF0E2265432D005EB859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B285FF0C2265432D005EB859 /* Main.storyboard */; };
 		B285FF112265432D005EB859 /* Get_Woke_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B285FF0F2265432D005EB859 /* Get_Woke_.xcdatamodeld */; };
 		B285FF132265432E005EB859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B285FF122265432E005EB859 /* Assets.xcassets */; };
 		B285FF162265432E005EB859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B285FF142265432E005EB859 /* LaunchScreen.storyboard */; };
 		B285FF212265432F005EB859 /* Get_Woke_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF202265432F005EB859 /* Get_Woke_Tests.swift */; };
 		B285FF2C2265432F005EB859 /* Get_Woke_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF2B2265432F005EB859 /* Get_Woke_UITests.swift */; };
+		B285FF4922654846005EB859 /* AlarmSchedulerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF3922654846005EB859 /* AlarmSchedulerDelegate.swift */; };
+		B285FF4A22654846005EB859 /* MainAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF3A22654846005EB859 /* MainAlarmViewController.swift */; };
+		B285FF4B22654846005EB859 /* AlarmApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF3B22654846005EB859 /* AlarmApplicationDelegate.swift */; };
+		B285FF4C22654846005EB859 /* WeekdaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF3C22654846005EB859 /* WeekdaysViewController.swift */; };
+		B285FF4D22654846005EB859 /* LabelEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF3D22654846005EB859 /* LabelEditViewController.swift */; };
+		B285FF4E22654846005EB859 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF3E22654846005EB859 /* MediaViewController.swift */; };
+		B285FF4F22654846005EB859 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF3F22654846005EB859 /* UIWindow+Extension.swift */; };
+		B285FF5022654846005EB859 /* AlarmAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4022654846005EB859 /* AlarmAddEditViewController.swift */; };
+		B285FF5122654846005EB859 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4122654846005EB859 /* Persistable.swift */; };
+		B285FF5222654846005EB859 /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4222654846005EB859 /* PropertyReflectable.swift */; };
+		B285FF5322654846005EB859 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4322654846005EB859 /* Scheduler.swift */; };
+		B285FF5422654846005EB859 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4422654846005EB859 /* Identifier.swift */; };
+		B285FF5522654846005EB859 /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4522654846005EB859 /* NotificationName+Extension.swift */; };
+		B285FF5622654846005EB859 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4622654846005EB859 /* AlarmModel.swift */; };
+		B285FF5722654846005EB859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4722654846005EB859 /* AppDelegate.swift */; };
+		B285FF5822654846005EB859 /* SegueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4822654846005EB859 /* SegueInfo.swift */; };
+		B285FF5A22654A3D005EB859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B285FF5922654A3D005EB859 /* Main.storyboard */; };
+		B285FF5F22654B1B005EB859 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF5E22654B1B005EB859 /* QuestionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +53,6 @@
 /* Begin PBXFileReference section */
 		B285FF052265432D005EB859 /* Get_Woke!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get_Woke!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B285FF082265432D005EB859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B285FF0A2265432D005EB859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B285FF0D2265432D005EB859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B285FF102265432D005EB859 /* Get_Woke_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Get_Woke_.xcdatamodel; sourceTree = "<group>"; };
 		B285FF122265432E005EB859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B285FF152265432E005EB859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,24 @@
 		B285FF272265432F005EB859 /* Get_Woke!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get_Woke!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B285FF2B2265432F005EB859 /* Get_Woke_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_Woke_UITests.swift; sourceTree = "<group>"; };
 		B285FF2D2265432F005EB859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B285FF3922654846005EB859 /* AlarmSchedulerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmSchedulerDelegate.swift; sourceTree = "<group>"; };
+		B285FF3A22654846005EB859 /* MainAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAlarmViewController.swift; sourceTree = "<group>"; };
+		B285FF3B22654846005EB859 /* AlarmApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmApplicationDelegate.swift; sourceTree = "<group>"; };
+		B285FF3C22654846005EB859 /* WeekdaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysViewController.swift; sourceTree = "<group>"; };
+		B285FF3D22654846005EB859 /* LabelEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEditViewController.swift; sourceTree = "<group>"; };
+		B285FF3E22654846005EB859 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		B285FF3F22654846005EB859 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		B285FF4022654846005EB859 /* AlarmAddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmAddEditViewController.swift; sourceTree = "<group>"; };
+		B285FF4122654846005EB859 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		B285FF4222654846005EB859 /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
+		B285FF4322654846005EB859 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
+		B285FF4422654846005EB859 /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		B285FF4522654846005EB859 /* NotificationName+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
+		B285FF4622654846005EB859 /* AlarmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		B285FF4722654846005EB859 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B285FF4822654846005EB859 /* SegueInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueInfo.swift; sourceTree = "<group>"; };
+		B285FF5922654A3D005EB859 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B285FF5E22654B1B005EB859 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +131,29 @@
 		B285FF072265432D005EB859 /* Get_Woke! */ = {
 			isa = PBXGroup;
 			children = (
+				B285FF5D22654AF6005EB859 /* Questions */,
+				B285FF5C22654AE6005EB859 /* Protocol */,
+				B285FF5B22654ADA005EB859 /* Model */,
 				B285FF082265432D005EB859 /* AppDelegate.swift */,
-				B285FF0A2265432D005EB859 /* ViewController.swift */,
-				B285FF0C2265432D005EB859 /* Main.storyboard */,
+				B285FF4022654846005EB859 /* AlarmAddEditViewController.swift */,
+				B285FF3B22654846005EB859 /* AlarmApplicationDelegate.swift */,
+				B285FF4622654846005EB859 /* AlarmModel.swift */,
+				B285FF3922654846005EB859 /* AlarmSchedulerDelegate.swift */,
+				B285FF4722654846005EB859 /* AppDelegate.swift */,
+				B285FF4422654846005EB859 /* Identifier.swift */,
+				B285FF3D22654846005EB859 /* LabelEditViewController.swift */,
+				B285FF3A22654846005EB859 /* MainAlarmViewController.swift */,
+				B285FF3E22654846005EB859 /* MediaViewController.swift */,
+				B285FF4522654846005EB859 /* NotificationName+Extension.swift */,
+				B285FF4122654846005EB859 /* Persistable.swift */,
+				B285FF4222654846005EB859 /* PropertyReflectable.swift */,
+				B285FF4322654846005EB859 /* Scheduler.swift */,
+				B285FF4822654846005EB859 /* SegueInfo.swift */,
+				B285FF3F22654846005EB859 /* UIWindow+Extension.swift */,
+				B285FF3C22654846005EB859 /* WeekdaysViewController.swift */,
 				B285FF122265432E005EB859 /* Assets.xcassets */,
 				B285FF142265432E005EB859 /* LaunchScreen.storyboard */,
+				B285FF5922654A3D005EB859 /* Main.storyboard */,
 				B285FF172265432E005EB859 /* Info.plist */,
 				B285FF0F2265432D005EB859 /* Get_Woke_.xcdatamodeld */,
 			);
@@ -126,6 +176,28 @@
 				B285FF2D2265432F005EB859 /* Info.plist */,
 			);
 			path = "Get_Woke!UITests";
+			sourceTree = "<group>";
+		};
+		B285FF5B22654ADA005EB859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B285FF5C22654AE6005EB859 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B285FF5D22654AF6005EB859 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				B285FF5E22654B1B005EB859 /* QuestionsViewController.swift */,
+			);
+			path = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B285FF5A22654A3D005EB859 /* Main.storyboard in Resources */,
 				B285FF162265432E005EB859 /* LaunchScreen.storyboard in Resources */,
 				B285FF132265432E005EB859 /* Assets.xcassets in Resources */,
-				B285FF0E2265432D005EB859 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +331,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B285FF5322654846005EB859 /* Scheduler.swift in Sources */,
+				B285FF5822654846005EB859 /* SegueInfo.swift in Sources */,
 				B285FF112265432D005EB859 /* Get_Woke_.xcdatamodeld in Sources */,
-				B285FF0B2265432D005EB859 /* ViewController.swift in Sources */,
+				B285FF4B22654846005EB859 /* AlarmApplicationDelegate.swift in Sources */,
+				B285FF5222654846005EB859 /* PropertyReflectable.swift in Sources */,
+				B285FF4F22654846005EB859 /* UIWindow+Extension.swift in Sources */,
+				B285FF5522654846005EB859 /* NotificationName+Extension.swift in Sources */,
+				B285FF4A22654846005EB859 /* MainAlarmViewController.swift in Sources */,
+				B285FF5F22654B1B005EB859 /* QuestionsViewController.swift in Sources */,
+				B285FF4E22654846005EB859 /* MediaViewController.swift in Sources */,
+				B285FF4922654846005EB859 /* AlarmSchedulerDelegate.swift in Sources */,
+				B285FF5622654846005EB859 /* AlarmModel.swift in Sources */,
+				B285FF4D22654846005EB859 /* LabelEditViewController.swift in Sources */,
 				B285FF092265432D005EB859 /* AppDelegate.swift in Sources */,
+				B285FF5422654846005EB859 /* Identifier.swift in Sources */,
+				B285FF5122654846005EB859 /* Persistable.swift in Sources */,
+				B285FF5022654846005EB859 /* AlarmAddEditViewController.swift in Sources */,
+				B285FF5722654846005EB859 /* AppDelegate.swift in Sources */,
+				B285FF4C22654846005EB859 /* WeekdaysViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B285FF0C2265432D005EB859 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B285FF0D2265432D005EB859 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B285FF142265432E005EB859 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tomokitakasawa.Get-Woke-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,7 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tomokitakasawa.Get-Woke-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
