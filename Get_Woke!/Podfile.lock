@@ -1,0 +1,20 @@
+PODS:
+  - SCLAlertView (0.8)
+  - "UIView+Shake (1.4.0)"
+
+DEPENDENCIES:
+  - SCLAlertView
+  - "UIView+Shake"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SCLAlertView
+    - "UIView+Shake"
+
+SPEC CHECKSUMS:
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  "UIView+Shake": 055ad67721de1f74d29c0a1d464697e505dfc62f
+
+PODFILE CHECKSUM: 7813669b252f3aab0c0647029833c10747681156
+
+COCOAPODS: 1.5.3

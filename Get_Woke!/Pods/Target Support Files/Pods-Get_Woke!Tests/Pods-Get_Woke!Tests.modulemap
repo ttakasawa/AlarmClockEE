@@ -1,0 +1,6 @@
+framework module Pods_Get_Woke_Tests {
+  umbrella header "Pods-Get_Woke!Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

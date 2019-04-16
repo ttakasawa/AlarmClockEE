@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71508DBAC58D0C2FB2035FE0 /* Pods_Get_Woke_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85F154EB5A59EE45B5A007 /* Pods_Get_Woke_UITests.framework */; };
+		81D991DEA397375EA6A43323 /* Pods_Get_Woke_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC7429A65723CA6BABBAF87 /* Pods_Get_Woke_.framework */; };
 		B285FF092265432D005EB859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF082265432D005EB859 /* AppDelegate.swift */; };
 		B285FF112265432D005EB859 /* Get_Woke_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B285FF0F2265432D005EB859 /* Get_Woke_.xcdatamodeld */; };
 		B285FF132265432E005EB859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B285FF122265432E005EB859 /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		B285FF5822654846005EB859 /* SegueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF4822654846005EB859 /* SegueInfo.swift */; };
 		B285FF5A22654A3D005EB859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B285FF5922654A3D005EB859 /* Main.storyboard */; };
 		B285FF5F22654B1B005EB859 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF5E22654B1B005EB859 /* QuestionsViewController.swift */; };
+		B285FF62226627BA005EB859 /* BlueToothHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B285FF61226627BA005EB859 /* BlueToothHandler.swift */; };
+		F97422AA236B2E88732FA5EA /* Pods_Get_Woke_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36ABA4A6DA709A1B4629CF8 /* Pods_Get_Woke_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E85F154EB5A59EE45B5A007 /* Pods_Get_Woke_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_Woke_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1443EFDD9FD539EAB3EE8827 /* Pods-Get_Woke!Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get_Woke!Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get_Woke!Tests/Pods-Get_Woke!Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		145B743BF6884310B757B993 /* Pods-Get_Woke!UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get_Woke!UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get_Woke!UITests/Pods-Get_Woke!UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6333E7D01F005722C60F3AE2 /* Pods-Get_Woke!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get_Woke!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get_Woke!/Pods-Get_Woke!.release.xcconfig"; sourceTree = "<group>"; };
+		6F28431B5A4E135A885927A3 /* Pods-Get_Woke!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get_Woke!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get_Woke!/Pods-Get_Woke!.debug.xcconfig"; sourceTree = "<group>"; };
 		B285FF052265432D005EB859 /* Get_Woke!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get_Woke!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B285FF082265432D005EB859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B285FF102265432D005EB859 /* Get_Woke_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Get_Woke_.xcdatamodel; sourceTree = "<group>"; };
@@ -81,6 +90,11 @@
 		B285FF4822654846005EB859 /* SegueInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueInfo.swift; sourceTree = "<group>"; };
 		B285FF5922654A3D005EB859 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B285FF5E22654B1B005EB859 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		B285FF61226627BA005EB859 /* BlueToothHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothHandler.swift; sourceTree = "<group>"; };
+		B355761485F44446C3701325 /* Pods-Get_Woke!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get_Woke!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get_Woke!Tests/Pods-Get_Woke!Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CFC7429A65723CA6BABBAF87 /* Pods_Get_Woke_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_Woke_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8178F78DF86C639F30A8EF1 /* Pods-Get_Woke!UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get_Woke!UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get_Woke!UITests/Pods-Get_Woke!UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E36ABA4A6DA709A1B4629CF8 /* Pods_Get_Woke_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_Woke_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D991DEA397375EA6A43323 /* Pods_Get_Woke_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97422AA236B2E88732FA5EA /* Pods_Get_Woke_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +118,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71508DBAC58D0C2FB2035FE0 /* Pods_Get_Woke_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		254295E8BD846276D3A58D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC7429A65723CA6BABBAF87 /* Pods_Get_Woke_.framework */,
+				E36ABA4A6DA709A1B4629CF8 /* Pods_Get_Woke_Tests.framework */,
+				0E85F154EB5A59EE45B5A007 /* Pods_Get_Woke_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E86987D0191A06CEA964D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F28431B5A4E135A885927A3 /* Pods-Get_Woke!.debug.xcconfig */,
+				6333E7D01F005722C60F3AE2 /* Pods-Get_Woke!.release.xcconfig */,
+				1443EFDD9FD539EAB3EE8827 /* Pods-Get_Woke!Tests.debug.xcconfig */,
+				B355761485F44446C3701325 /* Pods-Get_Woke!Tests.release.xcconfig */,
+				145B743BF6884310B757B993 /* Pods-Get_Woke!UITests.debug.xcconfig */,
+				D8178F78DF86C639F30A8EF1 /* Pods-Get_Woke!UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B285FEFC2265432D005EB859 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +155,8 @@
 				B285FF1F2265432F005EB859 /* Get_Woke!Tests */,
 				B285FF2A2265432F005EB859 /* Get_Woke!UITests */,
 				B285FF062265432D005EB859 /* Products */,
+				9E86987D0191A06CEA964D23 /* Pods */,
+				254295E8BD846276D3A58D01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,29 +173,16 @@
 		B285FF072265432D005EB859 /* Get_Woke! */ = {
 			isa = PBXGroup;
 			children = (
-				B285FF5D22654AF6005EB859 /* Questions */,
+				B285FF6522663A1E005EB859 /* Board */,
+				B285FF6422663A02005EB859 /* Extensions */,
+				B285FF632266398B005EB859 /* VC */,
+				B285FF6022662799005EB859 /* Bluetooth */,
 				B285FF5C22654AE6005EB859 /* Protocol */,
 				B285FF5B22654ADA005EB859 /* Model */,
 				B285FF082265432D005EB859 /* AppDelegate.swift */,
-				B285FF4022654846005EB859 /* AlarmAddEditViewController.swift */,
-				B285FF3B22654846005EB859 /* AlarmApplicationDelegate.swift */,
-				B285FF4622654846005EB859 /* AlarmModel.swift */,
-				B285FF3922654846005EB859 /* AlarmSchedulerDelegate.swift */,
 				B285FF4722654846005EB859 /* AppDelegate.swift */,
-				B285FF4422654846005EB859 /* Identifier.swift */,
-				B285FF3D22654846005EB859 /* LabelEditViewController.swift */,
-				B285FF3A22654846005EB859 /* MainAlarmViewController.swift */,
-				B285FF3E22654846005EB859 /* MediaViewController.swift */,
-				B285FF4522654846005EB859 /* NotificationName+Extension.swift */,
-				B285FF4122654846005EB859 /* Persistable.swift */,
-				B285FF4222654846005EB859 /* PropertyReflectable.swift */,
 				B285FF4322654846005EB859 /* Scheduler.swift */,
-				B285FF4822654846005EB859 /* SegueInfo.swift */,
-				B285FF3F22654846005EB859 /* UIWindow+Extension.swift */,
-				B285FF3C22654846005EB859 /* WeekdaysViewController.swift */,
 				B285FF122265432E005EB859 /* Assets.xcassets */,
-				B285FF142265432E005EB859 /* LaunchScreen.storyboard */,
-				B285FF5922654A3D005EB859 /* Main.storyboard */,
 				B285FF172265432E005EB859 /* Info.plist */,
 				B285FF0F2265432D005EB859 /* Get_Woke_.xcdatamodeld */,
 			);
@@ -181,6 +210,9 @@
 		B285FF5B22654ADA005EB859 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B285FF4622654846005EB859 /* AlarmModel.swift */,
+				B285FF4422654846005EB859 /* Identifier.swift */,
+				B285FF4822654846005EB859 /* SegueInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,16 +220,51 @@
 		B285FF5C22654AE6005EB859 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				B285FF3B22654846005EB859 /* AlarmApplicationDelegate.swift */,
+				B285FF3922654846005EB859 /* AlarmSchedulerDelegate.swift */,
+				B285FF4122654846005EB859 /* Persistable.swift */,
+				B285FF4222654846005EB859 /* PropertyReflectable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		B285FF5D22654AF6005EB859 /* Questions */ = {
+		B285FF6022662799005EB859 /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				B285FF5E22654B1B005EB859 /* QuestionsViewController.swift */,
+				B285FF61226627BA005EB859 /* BlueToothHandler.swift */,
 			);
-			path = Questions;
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		B285FF632266398B005EB859 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B285FF4022654846005EB859 /* AlarmAddEditViewController.swift */,
+				B285FF3D22654846005EB859 /* LabelEditViewController.swift */,
+				B285FF3A22654846005EB859 /* MainAlarmViewController.swift */,
+				B285FF3C22654846005EB859 /* WeekdaysViewController.swift */,
+				B285FF5E22654B1B005EB859 /* QuestionsViewController.swift */,
+				B285FF3E22654846005EB859 /* MediaViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B285FF6422663A02005EB859 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B285FF4522654846005EB859 /* NotificationName+Extension.swift */,
+				B285FF3F22654846005EB859 /* UIWindow+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B285FF6522663A1E005EB859 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				B285FF142265432E005EB859 /* LaunchScreen.storyboard */,
+				B285FF5922654A3D005EB859 /* Main.storyboard */,
+			);
+			path = Board;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B285FF302265432F005EB859 /* Build configuration list for PBXNativeTarget "Get_Woke!" */;
 			buildPhases = (
+				2DDCEFC7826E6BCF16FF2BB3 /* [CP] Check Pods Manifest.lock */,
 				B285FF012265432D005EB859 /* Sources */,
 				B285FF022265432D005EB859 /* Frameworks */,
 				B285FF032265432D005EB859 /* Resources */,
+				051CDEE56ADEFAA9E70D5E66 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B285FF332265432F005EB859 /* Build configuration list for PBXNativeTarget "Get_Woke!Tests" */;
 			buildPhases = (
+				2DA2AC323A2C7B7D6036A781 /* [CP] Check Pods Manifest.lock */,
 				B285FF182265432F005EB859 /* Sources */,
 				B285FF192265432F005EB859 /* Frameworks */,
 				B285FF1A2265432F005EB859 /* Resources */,
@@ -242,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B285FF362265432F005EB859 /* Build configuration list for PBXNativeTarget "Get_Woke!UITests" */;
 			buildPhases = (
+				9B8B9417F1239CAE1F6853E9 /* [CP] Check Pods Manifest.lock */,
 				B285FF232265432F005EB859 /* Sources */,
 				B285FF242265432F005EB859 /* Frameworks */,
 				B285FF252265432F005EB859 /* Resources */,
@@ -326,6 +397,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		051CDEE56ADEFAA9E70D5E66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Get_Woke!/Pods-Get_Woke!-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/UIView+Shake/UIView_Shake.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIView_Shake.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get_Woke!/Pods-Get_Woke!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA2AC323A2C7B7D6036A781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Get_Woke!Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DDCEFC7826E6BCF16FF2BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Get_Woke!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8B9417F1239CAE1F6853E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Get_Woke!UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B285FF012265432D005EB859 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -336,6 +500,7 @@
 				B285FF112265432D005EB859 /* Get_Woke_.xcdatamodeld in Sources */,
 				B285FF4B22654846005EB859 /* AlarmApplicationDelegate.swift in Sources */,
 				B285FF5222654846005EB859 /* PropertyReflectable.swift in Sources */,
+				B285FF62226627BA005EB859 /* BlueToothHandler.swift in Sources */,
 				B285FF4F22654846005EB859 /* UIWindow+Extension.swift in Sources */,
 				B285FF5522654846005EB859 /* NotificationName+Extension.swift in Sources */,
 				B285FF4A22654846005EB859 /* MainAlarmViewController.swift in Sources */,
@@ -514,6 +679,7 @@
 		};
 		B285FF312265432F005EB859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F28431B5A4E135A885927A3 /* Pods-Get_Woke!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +698,7 @@
 		};
 		B285FF322265432F005EB859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6333E7D01F005722C60F3AE2 /* Pods-Get_Woke!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +717,7 @@
 		};
 		B285FF342265432F005EB859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1443EFDD9FD539EAB3EE8827 /* Pods-Get_Woke!Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,6 +739,7 @@
 		};
 		B285FF352265432F005EB859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B355761485F44446C3701325 /* Pods-Get_Woke!Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -592,6 +761,7 @@
 		};
 		B285FF372265432F005EB859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145B743BF6884310B757B993 /* Pods-Get_Woke!UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,6 +782,7 @@
 		};
 		B285FF382265432F005EB859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8178F78DF86C639F30A8EF1 /* Pods-Get_Woke!UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

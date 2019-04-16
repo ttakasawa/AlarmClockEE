@@ -1,9 +1,9 @@
 //
-//  Scheduler.swift
-//  Alarm-ios-swift
+//  AppDelegate.swift
+//  Get_Woke!
 //
-//  Created by longyutao on 16/1/15.
-//  Copyright (c) 2016年 LongGames. All rights reserved.
+//  Created by Tomoki Takasawa on 4/15/19.
+//  Copyright © 2019 Mike. All rights reserved.
 //
 
 import Foundation
