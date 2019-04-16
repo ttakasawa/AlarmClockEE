@@ -1,7 +1,6 @@
 # AlarmClockEE
-Mike's alarm
-
-Get Woke! never sleep late again. iOS app for the smart alarm.
+Mike's alarm, iOS app for the smart alarm.
+Get Woke! never sleep late again.
 
 ## Familiar UI / UX
 <img width="462" height="451" src="resources/simpleUI.png"/>
