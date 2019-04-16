@@ -8,3 +8,8 @@ Get Woke! never sleep late again.
 
 ## Questions to tuen off the alarm
 <img width="231" height="451" src="resources/question.png"/>
+
+## Specs
+- Familiar UI / UX from iPhone's native alart to set alarm
+- Randomely generate three mathmatical questions when alarm is activated
+- After three successful answers, turn off the smart alarm via Bluetooth
