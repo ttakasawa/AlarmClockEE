@@ -13,3 +13,4 @@ Get Woke! never sleep late again.
 - Familiar UI / UX from iPhone's native alart to set alarm
 - Randomely generate three mathmatical questions when alarm is activated
 - After three successful answers, turn off the smart alarm via Bluetooth
+- Smooth animation / transition
