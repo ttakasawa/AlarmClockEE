@@ -23,7 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
         
         var error: NSError?
         do {
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+//            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
         } catch let error1 as NSError{
             error = error1
             print("could not set session. err:\(error!.localizedDescription)")

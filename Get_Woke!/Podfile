@@ -8,6 +8,7 @@ target 'Get_Woke!' do
   # Pods for Get_Woke!
   pod 'UIView+Shake'
   pod 'SCLAlertView'
+  pod 'RxBluetoothKit'
 
   target 'Get_Woke!Tests' do
     inherit! :search_paths

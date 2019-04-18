@@ -259,7 +259,7 @@ class QuestionsViewController: UIViewController, BlueToothHandler {
 
         if self.checkCorrectness(userAnsIndex: currentAns) {
             if self.state == 2 {
-                self.deactivate()
+                self.deactivateAlarm()
                 
                 if let navigator = self.navigationController {
                     navigator.popToRootViewController(animated: false)
@@ -277,7 +277,7 @@ class QuestionsViewController: UIViewController, BlueToothHandler {
     }
     
     
-    func deactivate() {
+    func deactivateAlarm() {
         print("deactivate alarm")
         self.deactivate()
         // NOTE: deactivate alarm here

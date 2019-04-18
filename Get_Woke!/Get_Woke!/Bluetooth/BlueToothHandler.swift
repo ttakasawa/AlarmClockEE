@@ -14,12 +14,25 @@ protocol BlueToothHandler {
     func activate()
     func deactivate()
     
-    func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber)
 }
 
+//CBCentralManagerDelegate, CBPeripheralDelegate
+extension BlueToothHandler where Self: CBCentralManagerDelegate {
+    func initialize(){
+        var centralManager: CBCentralManager!
+        centralManager = CBCentralManager(delegate: self, queue: nil)
+    }
+    
+}
+
+extension BlueToothHandler where Self: CBPeripheralDelegate {
+    
+}
 // NOTE: Mike, you guys need to implement Bluetooth stuff here.
 extension BlueToothHandler {
     func activate() {
+        var centralManager: CBCentralManager!
+        
         
     }
 //
